@@ -21,6 +21,6 @@ jobs:
             - ./node_modules
       - run:
           name: Run tests with JUnit as reporter
-          command: npm ci-test
+          command: npm run ci-test
           environment:
             JEST_JUNIT_OUTPUT_DIR: "reports/junit/js-test-results.xml"
