@@ -47,7 +47,7 @@ describe('travel router', () => {
             params.departureDate = '2019-01-01 EST'
             params.returnDate = '2019-01-03 EST'
             const res = await request(app).get(url).query(params)
-            expect(res.body.travel).toBe(true)
+            expect(res.body.travel).toBe(false)
           })
           it('gives false as travel recommendation because returnDate is a holiday', async () => {
             params.departureDate = '2018-12-30 EST'
