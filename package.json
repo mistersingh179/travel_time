@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "jest --runInBand",
+    "test": "jest --runInBand --verbose --watch",
     "ci-test": "jest --ci --runInBand --reporters=default --reporters=jest-junit"
   },
   "dependencies": {

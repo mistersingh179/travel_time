@@ -45,19 +45,19 @@ describe('travel router', () => {
         describe('travel dates include a holiday', () => {
           it('gives false as travel recommendation because departureDate is a holiday', async () => {
             params.departureDate = '2019-01-01 EST'
-            params.returnDate = '2019-01-15 EST'
+            params.returnDate = '2019-01-03 EST'
             const res = await request(app).get(url).query(params)
             expect(res.body.travel).toBe(false)
           })
           it('gives false as travel recommendation because returnDate is a holiday', async () => {
-            params.departureDate = '2018-12-01 EST'
+            params.departureDate = '2018-12-30 EST'
             params.returnDate = '2019-01-01 EST'
             const res = await request(app).get(url).query(params)
             expect(res.body.travel).toBe(false)
           })
           it('gives false as travel recommendation because date between departure and return is a holiday', async () => {
-            params.departureDate = '2019-12-01 EST'
-            params.returnDate = '2019-12-30 EST'
+            params.departureDate = '2019-12-24 EST'
+            params.returnDate = '2019-12-26 EST'
             const res = await request(app).get(url).query(params)
             expect(res.body.travel).toBe(false)
           })
