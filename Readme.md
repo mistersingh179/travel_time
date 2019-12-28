@@ -1,3 +1,7 @@
+| Statements | Branches | Functions | Lines |
+| -----------|----------|-----------|-------|
+| ![Statements](./badges/badge-statements.svg) | ![Branches](./badges/badge-branches.svg) | ![Functions](./badges/badge-functions.svg) | ![Lines](./badges/badge-lines.svg) |
+
 [![CircleCI](https://circleci.com/gh/mistersingh179/travel_time.svg?style=svg)](https://circleci.com/gh/mistersingh179/travel_time)
 
 ### Requirements:
