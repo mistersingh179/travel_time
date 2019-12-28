@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/mistersingh179/travel_time.svg?style=svg)](https://circleci.com/gh/mistersingh179/travel_time)
+
 ### Requirements:
 
 - rate limit all API requests
