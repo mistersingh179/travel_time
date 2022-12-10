@@ -14,7 +14,7 @@
     "cors": "^2.8.5",
     "date-holidays": "^1.4.12",
     "debug": "~2.6.9",
-    "express": "~4.16.1",
+    "express": "~4.17.3",
     "jest-coverage-badges": "^1.1.2",
     "moment": "^2.24.0",
     "morgan": "~1.9.1",
